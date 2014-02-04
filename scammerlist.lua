@@ -53,7 +53,7 @@ while SCAM_LIST[index] do
 	if tempDuplicated[index] and tempDuplicated[index].name == SCAM_LIST[index].name then
 		table.remove(SCAM_LIST, index)
 	else
-		tempDuplicated[index], index = SCAM_LIST[index], index + 1
+		tempDuplicatedd[index], index = SCAM_LIST[index], index + 1
 	end
 end
 
