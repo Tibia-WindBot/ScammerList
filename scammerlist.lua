@@ -26,7 +26,7 @@ setmetatable(SCAM_LIST, {__tostring = function(self)
 		str = string.format(VTABLE_PATTERN, user.nicks, user.reasons, user.adresses, user.name)
 	end
 	
-	return str:sub(1, -2)
+	return str
 end})
 
 
