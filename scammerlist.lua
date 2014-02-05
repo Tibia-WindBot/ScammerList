@@ -6,7 +6,7 @@ SCAM_LIST = {
 	{name = "Marco Ruellas", addresses = "email: ruellas@yahoo.com.br\nemail: ruellas@yahoo.com.br", nicks = "-", reasons = "Known Scammer"},
 	{name = "Laura Jones", addresses = "email: lawa1985@live.com\nskype: tibia.buyer", nicks = "Flamed", reasons = "Known Scammer"},
 	{name = "Matthew Zwicker", addresses = "email: matthewmaclean2000@hotmail.com\nskype: Matthew MacLean", nicks = "Sir Rexy", reasons = "Known Scammer"},
-	{name = "Emil Mårtensson", addresses = "email: Oscaroggejohansson@hotmail.com", nicks = "Characterforsale", reasons = "Known Scammer"},
+	{name = "Emil Mårtensson", addresses = "email: Oscaroggejohansson@hotmail.com", nicks = "Characterforsale, Fiimp, Fimp", reasons = "Known Scammer"},
 	{name = "Jamil Messias Sales", addresses = "email: jms.bel@gmail.com -", nicks = "-", reasons = "Known Scammer"},
 	{name = "-", addresses = "skype: corphia1\nskype: deidara.1990\nskype: myoncharacters\nemail: solantes12@hotmail.com\nskype: exef.exef", nicks = "corpie, corphek, corphia, Deidara, muooo, Solantes, exefexef, exef.exef, freeusertest1, adi101111, Sonik, exefik, corpha, corphia1", reasons = "Known Scammer"},
 	{name = "Valdecir J. Sousa, Jose De Sousa", addresses = "email: vev.valdecirjs@gmail.com", nicks = "-", reasons = "Known Scammer"},
