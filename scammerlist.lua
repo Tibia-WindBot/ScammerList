@@ -38,6 +38,7 @@ SCAM_LIST = {
 	{name = "Marian Puk", contact = "email: marian1953@gmail.com\nemail: oskar666@outlook.com", nicks = "Oskar", reasons = "Known Scammer"},
 	{name = "Michal Czernecki", contact = "email: mic.acc@hotmail.com\nsite: http//tibian-gold.weebly.com/\nskype: mic.acc_1", nicks = "Micacc", reasons = "Known Scammer"},
 	{name = "-", contact = "email: leicer131@gmail.com\nskype: leicer4", nicks = "Leicer", reasons = "Tried to falsificate moderator account to vouch for scam"},
+	{name = '-', contact = "skype: Rhomez@live.se", nicks = "Izze, Izzeh", reasons = 'Known Scammer'},
 }
 
 -- DO NOT EDIT BELOW --
