@@ -27,7 +27,7 @@ SCAM_LIST = {
 	{name = "Emerson-Queiroz", contact = "email: Emersontrk@yahoo.com.bremersontrk", nicks = "emersontrk", reasons = "Known Scammer"},
 	{name = "William Steen", contact = "email: Willesteen@live.se\nskype: Wille-steen97", nicks = "Wirre", reasons = "Known Scammer"},
 	{name = "Johan Kempe", contact = "email: jkfan.xd@hotmail.com\nskype: Johaanftw", nicks = "Johaanftw", reasons = "Known Scammer"},
-	{name = "Allex Isaksson", contact = "email: allexallexallex@live.com\nskype: Forgiven1337", nicks = "Jah", reasons = "Known Scammer"},
+	{name = "Allex Isaksson", contact = "email: allexallexallex@live.com\nskype: Forgiven1337", nicks = "-", reasons = "Known Scammer"},
 	{name = "-", contact = "email: czarodziej.czarek@hotmail.com\nskype: czarodziej.czarek", nicks = "Czarek Czarodziej", reasons = "Known Scammer"},
 	{name = "Elizabeth DuBois", contact = "email: eldubois@gmail.com\nskype: perdo.paulo2", nicks = "Nabirinight", reasons = "Known Scammer"},
 	{name = "Henrik Holmgren", contact = "skype: annesta5\nskype: John123\nskype: Lassermannez", nicks = "-", reasons = "Known Scammer"},
@@ -38,7 +38,6 @@ SCAM_LIST = {
 	{name = "Marian Puk", contact = "email: marian1953@gmail.com\nemail: oskar666@outlook.com", nicks = "Oskar", reasons = "Known Scammer"},
 	{name = "Michal Czernecki", contact = "email: mic.acc@hotmail.com\nsite: http//tibian-gold.weebly.com/\nskype: mic.acc_1", nicks = "Micacc", reasons = "Known Scammer"},
 	{name = "-", contact = "email: leicer131@gmail.com\nskype: leicer4", nicks = "Leicer", reasons = "Tried to falsificate moderator account to vouch for scam"},
-	{name = '-', contact = "skype: Rhomez@live.se", nicks = "Izze, Izzeh", reasons = 'Known Scammer'},
 	{name = "Adrian Urbanski", contact = "phone: 512306601", nicks = "Traderosek, Semphor, Everts", reasons = "Stole 550 euros"},
 	{name = "-", contact = "", nicks = "frozenpker", reasons = "Trading non valid WindBot license"},
 }
