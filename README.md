@@ -9,6 +9,6 @@ A Lua table based list for scams found on bot forums
   - Leonardo Falk (a.k.a Ropiderz)
 
 ## Links
-  - [*Windbot Forums*] (forums.tibiawindbot.com)
-  - [*Windbot Main Site*] (www.tibiawindbot.com)
+  - [*Windbot Forums*] (http://forums.tibiawindbot.com)
+  - [*Windbot Main Site*] (http://www.tibiawindbot.com)
   
