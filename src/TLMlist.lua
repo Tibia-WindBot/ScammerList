@@ -1,4 +1,4 @@
-SCAM_LIST = {
+local t = {
 	{name = "Joao Carlos Brinquete", contact = "skype: joao.carlos.brinquete.avo\nemail: joaowbrinquete@hotmail.com\nemail: joaoow@outlook.pt", nicks = "joaoow, iJoaoW", reasons = "Stole 4 Tibia Premium Time"},
 	{name = "Kelli Deferiese", contact = "email: kdefriese@charter.net\nemail: kdefriese@charter.net", nicks = "-", reasons = "Known Scammer"},
 	{name = "Rosa Maria Leal Freitas", contact = "email: rosafreitas@globo.com\nemail:rosafreitas@globo.com", nicks = "-", reasons = "Known Scammer"},
@@ -6,7 +6,7 @@ SCAM_LIST = {
 	{name = "Marco Ruellas", contact = "email: ruellas@yahoo.com.br\nemail: ruellas@yahoo.com.br", nicks = "-", reasons = "Known Scammer"},
 	{name = "Laura Jones", contact = "email: lawa1985@live.com\nskype: tibia.buyer", nicks = "Flamed", reasons = "Known Scammer"},
 	{name = "Matthew Zwicker", contact = "email: matthewmaclean2000@hotmail.com\nskype: Matthew MacLean", nicks = "Sir Rexy", reasons = "Known Scammer"},
-	{name = "Emil MÃ¥rtensson", contact = "email: Oscaroggejohansson@hotmail.com", nicks = "Characterforsale, Fiimp, Fimp", reasons = "Known Scammer"},
+	{name = "Emil Mårtensson", contact = "email: Oscaroggejohansson@hotmail.com", nicks = "Characterforsale, Fiimp, Fimp", reasons = "Known Scammer"},
 	{name = "Jamil Messias Sales", contact = "email: jms.bel@gmail.com -", nicks = "-", reasons = "Known Scammer"},
 	{name = "-", contact = "email: Securasolantes12@hotmail.com\nskype: solantes\nskype: Corphia1\nskype: corphia1\nskype: deidara.1990\nskype: myoncharacters\nemail: solantes12@hotmail.com\nskype: exef.exef", nicks = "corpie, corphek, corphia, Deidara, muooo, Solantes, exefexef, exef.exef, freeusertest1, adi101111, Sonik, exefik, corpha, corphia1, Solanek, qextibia, Joe, Exef", reasons = "Known Scammer"},
 	{name = "Valdecir J. Sousa, Jose De Sousa", contact = "email: vev.valdecirjs@gmail.com", nicks = "-", reasons = "Known Scammer"},
@@ -42,91 +42,4 @@ SCAM_LIST = {
 	{name = "-", contact = "", nicks = "frozenpker", reasons = "Trading non valid WindBot license"},
 }
 
--- DO NOT EDIT BELOW --
-
-local TEMPLATE_PATTERN1, TEMPLATE_PATTERN2, tempDuplicated = [[
-[tr="bgcolor: #cccccc"]
-	[td][B]%d[/B][/td]
-	[td][B]%s[/B][/td]
-	[td][B]%s[/B][/td]
-	[td][B]%s[/B][/td]
-	[td][B][noparse]%s[/noparse][/B][/td]
-[/tr]
-]], [[
-[tr="bgcolor: #ffffff"]
-	[td][B]%d[/B][/td]
-	[td][B]%s[/B][/td]
-	[td][B]%s[/B][/td]
-	[td][B]%s[/B][/td]
-	[td][B][noparse]%s[/noparse][/B][/td]
-[/tr]
-]], {}
-
-setmetatable(SCAM_LIST, {__tostring = function(self)
-	local str = ''
-
-	for i, user in pairs(self) do
-		if i == 1 or i % 2 ~= 0 then
-			str = str .. string.format(TEMPLATE_PATTERN2, i, user.name, user.nicks, user.reasons, user.contact, user.reasons)
-		else
-			str = str .. string.format(TEMPLATE_PATTERN1, i, user.name, user.nicks, user.reasons, user.contact, user.reasons)
-		end
-	end
-
-	return str
-end})
-
--- Exclude duplicated values
-local index = 1
-
-while SCAM_LIST[index] do
-	local user = SCAM_LIST[index]
-	local found = false
-
-	for _, v in pairs(tempDuplicated) do
-		if v.contact:find(user.contact) or v.nicks:find(user.nicks) then
-			found = true
-			break
-		end
-	end
-
-	if found then
-		table.remove(SCAM_LIST, index)
-	else
-		index, _ = index + 1, table.insert(tempDuplicated, user)
-	end
-end
-
--- Sort by name, nick, contact or reasons
-table.sort(SCAM_LIST, function(a, b)
-	if a.name == b.name then
-		if a.nicks == b.nicks then
-			if a.contact == b.contact then
-				return a.reasons < b.reasons
-			else
-				return a.contact < b.contact
-			end
-		else
-			return a.nicks < b.nicks
-		end
-	else
-		return a.name < b.name
-	end
-end)
-
--- Print out scammers list
-print(string.format([[
-[CENTER][B][SIZE=7][IMG]http://i.imgur.com/zuRnITx.png[/IMG][/SIZE][/B][/CENTER]
-
-[hr][/hr]
-
-[TABLE="width: 1024, align: center, class: cms_table_sortable"]
-[tr="bgcolor: #000000"]
-	[td="width: 5%%"][I][B][COLOR="#FFFFFF"]# ID[/B][/I]:[/COLOR][/td]
-	[td="width: 15%%"][B][I][COLOR="#FFFFFF"]Real Name[/I][/B]:[/COLOR][/td]
-	[td="width: 50%%"][I][B][COLOR="#FFFFFF"]Known Nickname(s)[/B][/I]:[/COLOR][/td]
-	[td="width: 15%%"][B][I][COLOR="#FFFFFF"]Reason(s)[/I][/B]:[/COLOR][/td]
-	[td="width: 15%%"][B][I][COLOR="#FFFFFF"]Contact[/I][/B]:[/COLOR][/td]
-[/tr]
-%s[/TABLE]
-]], tostring(SCAM_LIST)))
+return t
