@@ -6,7 +6,7 @@ local t = {
 	{name = "Marco Ruellas", contact = "email: ruellas@yahoo.com.br\nemail: ruellas@yahoo.com.br", nicks = "-", reasons = "Known Scammer"},
 	{name = "Laura Jones", contact = "email: lawa1985@live.com\nskype: tibia.buyer", nicks = "Flamed", reasons = "Known Scammer"},
 	{name = "Matthew Zwicker", contact = "email: matthewmaclean2000@hotmail.com\nskype: Matthew MacLean", nicks = "Sir Rexy", reasons = "Known Scammer"},
-	{name = "Emil Mårtensson", contact = "email: Oscaroggejohansson@hotmail.com", nicks = "Characterforsale, Fiimp, Fimp", reasons = "Known Scammer"},
+	{name = "Emil Mï¿½rtensson", contact = "email: Oscaroggejohansson@hotmail.com", nicks = "Characterforsale, Fiimp, Fimp", reasons = "Known Scammer"},
 	{name = "Jamil Messias Sales", contact = "email: jms.bel@gmail.com -", nicks = "-", reasons = "Known Scammer"},
 	{name = "-", contact = "email: Securasolantes12@hotmail.com\nskype: solantes\nskype: Corphia1\nskype: corphia1\nskype: deidara.1990\nskype: myoncharacters\nemail: solantes12@hotmail.com\nskype: exef.exef", nicks = "corpie, corphek, corphia, Deidara, muooo, Solantes, exefexef, exef.exef, freeusertest1, adi101111, Sonik, exefik, corpha, corphia1, Solanek, qextibia, Joe, Exef", reasons = "Known Scammer"},
 	{name = "Valdecir J. Sousa, Jose De Sousa", contact = "email: vev.valdecirjs@gmail.com", nicks = "-", reasons = "Known Scammer"},
@@ -40,6 +40,7 @@ local t = {
 	{name = "-", contact = "email: leicer131@gmail.com\nskype: leicer4", nicks = "Leicer", reasons = "Tried to falsificate moderator account to vouch for scam"},
 	{name = "Adrian Urbanski", contact = "phone: 512306601", nicks = "Traderosek, Semphor, Everts", reasons = "Stole 550 euros"},
 	{name = "-", contact = "", nicks = "frozenpker", reasons = "Trading non valid WindBot license"},
+	{name = "-", contact = "skype: Ognisty Rasputin", nicks = "Frox, Ognisty, Rasputin, Ognistyred", reasons = "Stole 63kk from douglindo"},
 }
 
 return t
