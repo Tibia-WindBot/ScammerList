@@ -58,7 +58,6 @@ local fl = io.open("../output.txt", "w+")
 
 if (fl ~= nil) then
 	--// checks if creating/clearing file was successful;
-	fl:write(ThreadListMaker.Header .. "\n")
-	fl:write(tostring(ThreadListMaker.List))
+	fl:write(string.format(ThreadListMaker.Header, tostring(ThreadListMaker.List) .. "\n"))
 	fl:close()
 end
