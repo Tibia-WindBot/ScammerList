@@ -32,12 +32,10 @@ setmetatable(ThreadListMaker.List, {__tostring = function(self)
 	local str = ''
 
 	for index, entry in pairs(self) do
-		local tblValues = table.values(entry)
-
 		if index == 1 or index % 2 ~= 0 then
-			str = str .. string.format(ThreadListMaker.Line1P, index, unpack(tblValues))
+			str = str .. string.format(ThreadListMaker.Line1P, index, entry.name, entry.nicks, entry.reasons, entry.contact)
 		else
-			str = str .. string.format(ThreadListMaker.Line2P, index, unpack(tblValues))
+			str = str .. string.format(ThreadListMaker.Line2P, index, entry.name, entry.nicks, entry.reasons, entry.contact)
 		end
 	end
 
@@ -45,12 +43,18 @@ setmetatable(ThreadListMaker.List, {__tostring = function(self)
 end})
 
 table.sort(ThreadListMaker.List, function(a, b)
-	for k, v in ipairs(a) do
-		if v < b[k] then
-			return a
+	if a.name == b.name then
+		if a.nicks == b.nicks then
+			if a.contact == b.contact then
+				return a.reasons < b.reasons
+			else
+				return a.contact < b.contact
+			end
 		else
-			return b
+			return a.nicks < b.nicks
 		end
+	else
+		return a.name < b.name
 	end
 end)
 
@@ -58,6 +62,7 @@ local fl = io.open("../output.txt", "w+")
 
 if (fl ~= nil) then
 	--// checks if creating/clearing file was successful;
+	--// if true then write and close file;
 	fl:write(string.format(ThreadListMaker.Header, tostring(ThreadListMaker.List) .. "\n"))
 	fl:close()
 end
