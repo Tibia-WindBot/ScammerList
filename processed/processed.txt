@@ -1,0 +1,7 @@
+return {
+	{user = "Izze", scammer = "Leicer", status = "B"},
+	{user = "Imba", scammer = "Venlo", status = "P"},
+	{user = "leonazteca", scammer = "Traderosek", status = "B"},
+	{user = "Benfas", scammer = "frozenpker", status = "B"},
+	{user = "douglindo", scammer = "Frox", status = "B"},
+}
