@@ -42,4 +42,10 @@ return {
 	{name = "Adrian Urbanski", contact = "phone: 512306601", nicks = "Traderosek, Semphor, Everts", reasons = "Stole 550 euros"},
 	{name = "-", contact = "", nicks = "frozenpker", reasons = "Trading non valid WindBot license"},
 	{name = "-", contact = "skype: Ognisty Rasputin", nicks = "Frox, Ognisty, Rasputin, Ognistyred", reasons = "Stole 63kk from douglindo"},
+	{name = "Johan Hultin", contact = "skype: hultin3", nicks = "Hultin", reasons = "Stealing characters"},
+	{name = "-", contact = "", nicks = "mrtibia, yamakata, korineq, Cocaine Dreams, ozzirgrizzo", reasons = "Stealing characters"},
+	{name = "-", contact = "skype: notpil.service", nicks = "Notpil", reasons = "Stole 300 euros on a character trade"},
+	{name = "Florent Lukasz", contact = "", nicks = "Bomba", reasons = "Stole 350 euros on a trade"},
+	{name = "-", contact = "email: tibiacharacters.forsale@hotmail.com", nicks = "Aurora Commander", reasons = "Stole 100 euros on a trade"},
+	{name = "Mike Keane", contact = "skype: mike.keane332", nicks = "Fraggah", reasons = "Stole a character"},
 }
