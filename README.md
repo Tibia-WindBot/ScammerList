@@ -1,7 +1,7 @@
 # Black List
 
 A list of people who tried to thief users on WindBot and got caught.
-Current version: 1.2.23
+Current version: 1.2.24
 
 ## Summary
   Black List is a builder for the [main scammer thread] (http://forums.tibiawindbot.com/showthread.php?1901). It was created to easily manage and create that list on forums only by simply adding information about the scammer on the files here.
