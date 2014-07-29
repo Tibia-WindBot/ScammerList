@@ -1,6 +1,6 @@
 return {
 	-- Members of the Black List;
-	{name = "Joao Carlos Brinquete", contact = "skype: joao.carlos.brinquete.avo\nemail: joaowbrinquete@hotmail.com\nemail: joaoow@outlook.pt", nicks = "joaoow, iJoaoW", reasons = "Stole 4 Tibia Premium Time"},
+	{name = "Joao Carlos Brinquete", contact = "skype: jokamaka.trades\nskype: jokamaka\nskype: joaohpunmergedacc\nskype: joao.carlos.brinquete.avo\nemail: joaowbrinquete@hotmail.com\nemail: joaoow@outlook.pt", nicks = "jhp, joaoow, iJoaoW, JoaoW", reasons = "Multiple Scamming"},
 	{name = "Kelli Deferiese", contact = "email: kdefriese@charter.net\nemail: kdefriese@charter.net", nicks = "-", reasons = "Known Scammer"},
 	{name = "Rosa Maria Leal Freitas", contact = "email: rosafreitas@globo.com\nemail:rosafreitas@globo.com", nicks = "-", reasons = "Known Scammer"},
 	{name = "Carlos Mar", contact = "email: silvadomar@globo.com\nemail: silvadomar@globo.com", nicks = "-", reasons = "Known Scammer"},
@@ -48,4 +48,5 @@ return {
 	{name = "Florent Lukasz", contact = "", nicks = "Bomba", reasons = "Stole 350 euros on a trade"},
 	{name = "-", contact = "email: tibiacharacters.forsale@hotmail.com", nicks = "Aurora Commander", reasons = "Stole 100 euros on a trade"},
 	{name = "Mike Keane", contact = "skype: mike.keane332", nicks = "Fraggah", reasons = "Stole a character"},
+	{name = "", contact = "skype: dorbenshimon\nemail: dorbenshimon1@gmail.com", nicks = "doridor", reasons = "Stole character"},
 }
