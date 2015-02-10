@@ -48,5 +48,6 @@ return {
 	{name = "Florent Lukasz", contact = "", nicks = "Bomba", reasons = "Stole 350 euros on a trade"},
 	{name = "-", contact = "email: tibiacharacters.forsale@hotmail.com", nicks = "Aurora Commander", reasons = "Stole 100 euros on a trade"},
 	{name = "Mike Keane", contact = "skype: mike.keane332", nicks = "Fraggah", reasons = "Stole a character"},
-	{name = "", contact = "skype: dorbenshimon\nemail: dorbenshimon1@gmail.com", nicks = "doridor", reasons = "Stole character"},
+	{name = "-", contact = "skype: dorbenshimon\nemail: dorbenshimon1@gmail.com", nicks = "doridor", reasons = "Stole character"},
+	{name = "-", contact = "email: tibiatradershop@hotmail.com\nwebsite: tibiatradershop.com", nicks = "tibiatradershop, palomose, Baczkamen", reasons = "Scam attempt"},
 }
