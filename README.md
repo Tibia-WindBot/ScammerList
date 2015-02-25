@@ -12,7 +12,8 @@ Current version: 1.2.24
   If you want to manage the users, check the file "src/blacklist.txt".
 
 ## Contributors
-  - Leonardo Falk (a.k.a Ropiderz)
+  - Raphael Mobis
+  - Leonardo Falk
 
 ## Links
   - [*Windbot Forums*] (http://forums.tibiawindbot.com)
