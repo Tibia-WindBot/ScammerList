@@ -1,6 +1,6 @@
 --[[
 	Scammer List
-	Version 1.2.22
+	Version 1.2.24
 ]]--
 
 local file = io.open("../src/blacklist.txt", "r")
